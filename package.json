@@ -1,0 +1,26 @@
+{
+  "name": "extract-text",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel app/index.html",
+    "build": "parcel build app/index.html --experimental-scope-hoisting",
+    "deploy": "surge dist"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-static-files-copy": "^2.2.1",
+    "preact": "^8.5.2",
+    "preact-compat": "^3.19.0",
+    "puppeteer": "^1.20.0",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-shadow": "^17.1.3",
+    "react-tabs": "^3.0.0",
+    "react-toggle-display": "^2.2.0"
+  },
+  "staticFiles": {
+    "staticPath": "static"
+  }
+}
