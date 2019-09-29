@@ -5,7 +5,7 @@ import Tabs from './tabs'
 const Examples = () => (
   <div>
     <h1>Non-Toggle Example</h1>
-    <div id="toggle">
+    <div id="non-toggle">
       <div className="firstTwo">
         <Toggle name="One" apple alwaysShow/>
         <Toggle name="Two" mango alwaysShow/>
